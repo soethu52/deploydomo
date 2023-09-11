@@ -1,0 +1,9 @@
+@import '../../style.scss';
+.calculate {
+    @include themify($themes) {
+        display: flex;
+        flex-direction: row;
+        padding: 20px 50px;
+        background-color: themed("bgSoft");
+    }
+}
