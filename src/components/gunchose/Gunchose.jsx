@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import './gunchose.scss';
 import { GunContext } from '../../context/gunChoseContext';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Gunchose = () => {
   const { selectGun } = useContext(GunContext);
@@ -70,7 +70,7 @@ const Gunchose = () => {
       </ul>
       <div className="right">
         <div className="layout">
-          <img src={"https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600"} />
+          <img src={"https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600"} alt=''/>
         </div>
       </div>
     </div>
